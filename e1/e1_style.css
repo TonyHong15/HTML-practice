@@ -34,7 +34,8 @@ a {
 .birdLogo {
 
 	/* Add properties below */
-
+	width: 30px;
+	margin-left: 40px;
 }
 
 .bannerPic {
@@ -42,6 +43,7 @@ a {
 	width: 100%;
 
 	/* Add properties below */
+	height: 300px;
 	
 }
 
@@ -58,7 +60,7 @@ a {
 	padding: 3px;
 	
 	/* Add properties below */
-	
+	margin-left: 390px;
 }
 
 #profileStats ul li {
@@ -70,15 +72,16 @@ a {
 	/* Add a proper display property: We want the stats to have 
 	a height, but also appear side-by-side */
 
-	/*display: ;*/
-		
+	display: inline-block;
+	
 }
 
 .profileStatsNumber {
 	display: block;
 	
 	/* Add properties below */
-
+	font-size: 150%;
+	text-align: center;
 }
 
 
@@ -89,6 +92,12 @@ a {
 	padding: 10px;
 	
 	/* Add properties below */
+	min-height: 300px;
+	width: 300px;
+	margin-left: 50px;
+	margin-right: 40px;
+	margin-top: 20px;
+	float: left;
 
 }
 
@@ -100,6 +109,10 @@ a {
 	background-color: white;
 
 	/* Add properties below */
+
+	margin-top: 20px;
+	width: 600px;
+	float: left;
 
 }
 
@@ -118,7 +131,7 @@ a {
 	font-weight: bold;
 
 	/* Add properties below */
-	
+	display: inline-block;
 
 }
 
@@ -129,6 +142,10 @@ a {
 	background-color: white;
 	
 	/* Add properties below */
+	min-height: 100px;
+	width: 600px;
+	overflow: auto;
+	border-bottom: solid grey 1px;
 
 }
 
@@ -136,25 +153,40 @@ a {
 .tweetIconContainer {
 
 	/* Add properties below */
+	width: 80px;
+	float: left;
+	
 
 }
 
 .tweetIcon {
 
 	/* Add properties below */
-
+	border-radius: 50%;
+	width: 60px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .tweetContent {
 	margin: 0px;
 
 	/* Add properties below */
+	width: 520px;
+	float: left;
+
+
 
 }
 
 /* For pictures inside tweets (like the Robarts pic) */
 .tweetContentPicture {
 	/* Add properties below */
+	max-width: 500px;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	
 }
 
@@ -162,7 +194,12 @@ a {
 /* Style the big profile picture circle here. */
 #bigProfilePicCircle {
 	/* Add properties below */
-
+	position: absolute;
+	top: 230px;
+	left: 100px;
+	width: 200px;
+	border: solid white 2px;
+	border-radius: 50%;
 }
 
 

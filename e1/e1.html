@@ -11,7 +11,8 @@
  	
  	<!-- The header -->
  	<div id="header">
- 		<!-- Twitter logo goes in here -->
+		 <!-- Twitter logo goes in here -->
+		 <img class="birdLogo" src="bird.png" alt="Twitter Logo">
  		
  	</div>
 
@@ -19,17 +20,18 @@
  	<div id="banner"> <!-- Just holds the banner image, don't need to style this div. -->
 
  		<!-- Banner image goes in here -->
- 		
+ 		<img class="bannerPic" src="uoft_banner.jpeg" alt="Uoft Banner">
 
- 	</div>
-
+	</div>
  	<div id="profileStats">
  		<ul>
  			<!-- Style the list element: Label and number -->
  			<li>Tweets<br><span class="profileStatsNumber">478</span></li>
-
+			
  			<!-- Add the rest of the stats below -->
-
+			<li>Followers<br><span class="profileStatsNumber">23K</span></li>
+			<li>Following<br><span class="profileStatsNumber">12</span></li>
+			<li>Likes<br><span class="profileStatsNumber">10.3K</span></li>
 
  		</ul>
  	</div>
@@ -46,7 +48,6 @@
 
  	<!-- The Timeline Section -->
  	<div id='timeline'>
-
  		<div class='timelineHeader'>
  			<ul>
 	 			<li><a href="">Tweets</a></li>
@@ -61,24 +62,72 @@
  			and one that has the content of the tweet.
  			Remember to look in the starter CSS for appropriate class names that 
  			match these descriptions. -->
+			<div class="tweetIconContainer"> 
+				<img class="tweetIcon" src="uoft.jpg" alt="uoft_logo">
+			</div>
 
-
+			<div class="tweetContent">
+				<h3>
+					<span>University of Toronto</span>
+					<span class="grey">
+					   @UofT 	
+					</span>
+				</h3>
+				Another great day at UofT!
+				<span class="hashtag">
+					#UofT #GreatDay
+				</span>
+			</div>
  		</div>
 
  		<!-- Second tweet -->
  		<div class='tweet'>
- 			<!-- Reuse all of the tweet classes from the one above, 
- 			and just change the content of the tweet. -->
+		   <div class="tweetIconContainer"> 
+			   <img class="tweetIcon" src="uoft.jpg" alt="uoft_logo">
+		   </div>
 
-
+		   <div class="tweetContent">
+			   <h3>
+			   		<span>University of Toronto</span>
+					<span class="grey">
+						@UofT 	
+					</span>
+			   </h3>
+			   Check out some books at 
+			   <span class="hashtag">
+				   #robarts
+			   </span>
+			   <div>
+				<img class="tweetContentPicture" src="robarts.jpg" alt="Robarts Library">
+			   </div>
+		   </div>
  		</div>
 
+
 		<!-- Add your own tweet below -->
-
-
-
-
-
- 	</div>
+		<div class='tweet'>
+			<div class="tweetIconContainer"> 
+				<img class="tweetIcon" src="profile_pic.jpg" alt="User Profile Pic">
+			</div>
+ 
+			<div class="tweetContent">
+				<h3>
+					<span>Tony Hong</span>
+					<span class="grey">
+						@tony_hong	
+					</span>
+				</h3>
+				Getting back into Shape
+				<span class="hashtag">
+					#Workout #UofT #HartHouse
+				</span>
+				<div>
+				 <img class="tweetContentPicture" src="gym.jpg" alt="Hart House Gym">
+				</div>
+			</div>
+		</div>
+	 </div>
+	 <!-- Profile Pic -->
+	 <img id="bigProfilePicCircle" src="uoft.jpg" alt="Profile Picture">
  </body>
 </html>
